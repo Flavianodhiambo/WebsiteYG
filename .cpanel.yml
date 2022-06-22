@@ -1,0 +1,18 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/youthgre/public_html/
+    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R lib $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R scss $DEPLOYPATH
+    - /bin/cp -R mail $DEPLOYPATH
+    /bin/cp index.html $DEPLOYPATH
+ /bin/cp single.html $DEPLOYPATH
+  /bin/cp service.html $DEPLOYPATH
+   /bin/cp contact.html $DEPLOYPATH
+    /bin/cp about.html $DEPLOYPATH
+     /bin/cp LICENSE.txt $DEPLOYPATH
+      /bin/cp .cpanel.yml $DEPLOYPATH
